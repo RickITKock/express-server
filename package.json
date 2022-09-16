@@ -1,0 +1,32 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "npx tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickITKock/express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickITKock/express-server/issues"
+  },
+  "homepage": "https://github.com/RickITKock/express-server#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.14",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.4.0",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
